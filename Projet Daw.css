@@ -1,100 +1,281 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
-
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA-seUbOvISTs.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA-seUZevISTs.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA-seUbuvISTs.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA-seUb-vISTs.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA-seUYevI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSUbOvISTs.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSUZevISTs.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSUbuvISTs.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSUb-vISTs.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSUYevI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofIOOaBXso.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofIMeaBXso.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofIOuaBXso.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofIO-aBXso.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofINeaB.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA6sKUbOvISTs.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA6sKUZevISTs.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA6sKUbuvISTs.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA6sKUb-vISTs.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA6sKUYevI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*pour telechrger la famille de font du google
+on peut les remplacer par
+: @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');*/
 :root{
-  --yellow:#f9ca24;
+  --yellow:#f9ca24;/*pour faciliter la reutilisatio de la couleur */
 }
 
 *{
-    font-family: 'Nunito', sans-serif;
+  /*pour generaliser le type de font*/
+    font-family: 'Nunito', sans-serif;/*La famille de font*/
     margin:0; padding:0;
     box-sizing: border-box;
     text-decoration: none;
-    outline: none; border:none;
     text-transform: capitalize;
     transition: all .2s linear;
 }
 
-
-*::selection{
-  background:var(--yellow);
-  color:#333;
+*::selection{/*Lors de la selection d'un elemet*/
+  background:var(--yellow);/*le font sera jaune*/
+  color:#333;/*et la coleur de text noir*/
 }
 
 
 html{
-  font-size: 62.5%;
-  overflow-x: hidden;
+  font-size: 62.5%;/*La tille de font*/
+  overflow-x: hidden;/*pour masquer(the scrollbare)*/
 }
 
 body{
-  background:#111;
-  padding-left: 35rem;
-  overflow-x: hidden;
+  background:#111;/*la coleur de font*/
+  padding-left: 35rem;/*la marge a gauche*/
+  overflow-x: hidden;/*pour masquer(the scrollbare)*/
 }
 
-
+/*La partie hreder------------------------------------------------------------------------*/
 header{
-  text-align: center;
-  margin:0 6rem;
-  font-size: 4rem;
-  padding:1rem;
-  border-bottom: .1rem solid #fff4;
-  color:#fff;
+  text-align: center;/*pour poser le text au centre*/
+  margin:0 6rem; /*la marge*/
+  font-size: 4rem;/*la taille de font*/
+  padding:2rem; /*la marge a tout les cotes*/
+  border-bottom: .1rem solid #fff4;;/* le cadre de header et sa coleur */
+  color:#fff;/*la coleur de text dans le header*/
+  align-items: center;/*mes les element au centre*/
+  text-align: center;/*mes les textes au centre*/
+  outline: none; border:none;/*pour masquer les cadres */
+  justify-content: center;
+  flex-flow: column;
 }
 
 #Menu{
-  background:#333;
-  color:#fff;
-  display: none;
+  background:#333;/*La coleur de font*/
+  color:#fff;/*la coleur de text dans les buttons*/
+  display: none;/*pour n'affiche pas les points de la list */
 }
 header ul li {
-  display: block;
-  padding:1rem;
-  margin:1.5rem 0;
-  background:#333;
-  color:#fff;
-  font-size: 2rem;
-  border-radius: 5rem;
+  display: block;/*afficher les buttons herisontalement*/
+  padding:1rem;/*la amarge*/
+  margin:1.5rem 0;/*la marge*/
+  background:#333;/*la coleur de font*/
+  color:#fff;/*la coleur*/
+  font-size: 2rem ; /*la taille de font*/
+  border-radius: 5rem;/*dere de courbure du cadre*/
   
-}header{
-  padding: 02rem;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column;
-  text-align: center;
 }
 header .titre{
-  font-size: 2.5rem;
-  color:#fff;
+  font-size: 2.5rem;/*la taille de font*/
+  color:#fff;/*la coleur de titre*/
 }header .description{
-  padding: 01rem;
-   font-size: 2rem;
-    color:#fff;
+  padding: 01rem;/*la marge*/
+  font-size: 2rem;/*la taille de font*/
+  color:#fff;/*la coleur dedescription*/
 }
 .Menu li{
-  display: inline;  
-  margin: 1cm;
-  cursor: pointer;
+  display: inline; /*comment positioner*/
+  margin: 1cm;/*la marche*/
+  cursor: pointer;/*le type de crseur*/
   }
   .Menu li:hover{
     background:var(--yellow);
   }
   #btn{
-    padding:.7rem 3rem;
-    background:#1a1a1a;
-    color:#fff;
-    margin-top: 1rem;
-    font-size: 2rem;
-    border-radius: 5rem;
+    padding:.7rem 3rem;/*la marge*/
+    margin-top: 1rem;/*la marge*/
+    background:#1a1a1a;/*la coleur de font*/
+    font-size: 2rem;/*la taille de font*/
+    border-radius: 5rem;/*courbure es angles*/
+    outline: none; border:none;/*pour masquer les cadres */
   }
+/*La partie nav------------------------------------------------------------------------*/
 
 nav{
-  position: fixed;
-  top:0; left:0;
+  position: fixed;/*la position*/
+  top:0; left:0;/*la marge au haut et a gauche*/
   z-index: 1000;
-  height:100%;
-  width:35rem;
-  background:#1a1a1a;
+  height:100%;/*l'hauteur de nav*/
+  width:35rem;/*largeur*/
+  background:#1a1a1a;/*la coleur de font*/
+  /*mes les elements au center*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,116 +285,133 @@ nav{
 .My img{
   
   height:17rem;
-  width:17rem;
-  border-radius: 50%;
+  width:17rem;/*largeur*/
+  border-radius: 50%;/*courbure es angles*/
   object-fit: cover;
-  margin-bottom: 1rem;
-  border:0.7rem solid var(--yellow);
+  margin-bottom: 1rem;/*la marge par la bas*/
+  border:0.7rem solid var(--yellow); /*le cadre de l'emage ca taille et ca coleur*/
 }
 
 #photo:hover{
-transform: scale(1.3);
+transform: scale(1.3);/*pour zoomer la photo*/
 }
 
 .My .name{
 text-transform: uppercase;
-color:#fff;
-font-size: 3rem;
-padding-bottom: 2rem;
-padding-top: 2rem;
+color:#fff;/*la coleur de nom*/
+font-size: 3rem;/*la taille de font*/
+padding-bottom: 2rem;/*la marge par la bas*/
+padding-top: 2rem;/*la marge  d'haut*/
 }
 
 .My .info .age,.number,.adress,.gmail {
-display: flex;
-align-items: center;
-font-size: 1.6rem;
-color:#eee;
-padding:2rem 0;
-padding-left: 2rem;
+display: flex;/*comment positionner*/
+align-items: center;/*mes les element au centre de navigateur*/
+font-size: 1.6rem;/*la taille de font*/
+color:#eee;/*la coleur des information*/
+padding:2rem 0;/*la marge*/
+padding-left: 2rem;/*la marge a gauche*/
 font-weight: normal;
 }
-.My h3 i{
-  padding-right: 1rem;
-  color:var(--yellow);
+.My i{
+  padding-right: 1rem;/*la marge a roit*/
+  color:var(--yellow);/*la coleur de text*/
 }
+.My .media a{
+  padding-right: 1rem;/*la marge a roit*/
+  color:var(--yellow);/*la coleur de text*/
+  font-size: 2.5rem;/*la taille de font*/
+  display: inline;/*afficher les buttons herisontalement*/
+  padding:2.5rem;/*la amarge*/
+}
+
+/*La partie section or home------------------------------------------------------------------------*/
+
 .home{
-  min-height: 52.2vh;
-  display: flex;
+  min-height: 52.2vh;/*l'hauteur inferieur*/
+  display: flex;/*comment positionner*/
   justify-content: center;
   flex-flow: column;
+  outline: none; border:none;/*pour masquer les cadres */
 }
 
 iframe{
-  width: 100%;
-  height: 300px;
-  padding:0 10rem;
+  width: 100%;/*largeur*/
+  height: 300px;/*l'hauteur*/
+  padding:0 10rem;/*la marge*/
+  outline: none; border:none;/*pour masquer les cadres */
 }
 iframe:hover{
   transform: scale(1.05);
+  outline: none; border:none;/*pour masquer les cadres */
 }
 .home h3{
-  padding:0 15rem;
-  font-size: 2.5rem;
-  color:#fff;
+  padding:0 15rem;/*la marge*/
+  font-size: 2.5rem;/*la taille de font*/
+  color:#fff;/*la coleur*/
 }
 
 .home h1{
-  padding:0 15rem;
-  font-size:5rem;
-  color:#fff;
+  padding:0 15rem;/*la marge*/
+  font-size:5rem;/*la taille de font*/
+  color:#fff;/*la coleur*/
 }
 
 .home h1 span{
-  color:var(--yellow);
+  color:var(--yellow); /*la coleur de text*/
 }
 
 .home p{
-  font-size:2rem;
-  color:#eee;
-  padding: 1rem 15rem;
+  font-size:2rem;/*la taille de font*/
+  color:#eee;/*la coleur*/
+  padding: 1rem 15rem;/*la marge*/
 }
 
+/*La partie footer------------------------------------------------------------------------*/
 
 footer{
-  font-size:1.7rem;
-  color: var(--yellow);
-  background:#111;
+  font-size:1.7rem;/*la taille de font*/
+  color: var(--yellow);/**la coleur de text/
+  background:#111;/*la coleur de font*/
 }
 footer h3{
-  color: white;
+  color: white;/*la coleur*/
 }
 #lang{
-float: right;
-padding-right: 10rem;
+padding-left: 10rem;/*la marge a droit*/
 }
 #int{
-  padding-left: 10rem;
+  float: right;/*poser a roit*/
+  padding-right: 10rem;/*la marge a gauche*/
 }
+/*La partie des autres pages----------------------------------------------------------------*/
+
 #comp{
-  float: left;
-  color: var(--yellow);
-  background-image: url('comp.png');
-  font-size:2rem;
+  color: var(--yellow);/*la coleur de text*/
+  background-image: url('comp.png');/*le lien d'image de font*/
+  font-size:2rem;/*la taille de font*/
 }
 #exp{
-  font-size:2rem;
-  color:#fff;
-  background-image: url('exp.png');
+  font-size:2rem;/*la taille de font*/
+  color:#fff;/*la coleur de text*/
+  background-image: url('exp.png');/*le lien d'image de font*/
 }
 #form{
-  background-image: url('form.png');
-  color:#111;
-  font-size:2rem;
+  background-image: url('form.png');/*le lien d'image de font*/
+  color:#111;/*la coleur de text*/
+  font-size:2rem;/*la taille de font*/
 }
 
 #comp ,#form ,#exp{
-  padding-left: 5rem;
+  padding-left: 5rem;/*la marge*/
+}
+hr{
+  width: 93%;/*largeur de ligne*/
 }
 #comp h3,#form h3,#exp h3{
-  font-size:4rem;
-  padding-left: 20rem;
-  padding-top: 3rem;
-  padding-bottom: 2.6rem;
-
-  
+  font-size:4rem;/*la taille de font*/
+  padding-left: 20rem;/*la marge*/
+  padding-top: 3rem;/*la marge*/
 }
+
+
