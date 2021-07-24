@@ -1,1 +1,90 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Projet Daw.css"><!--pour lier le fichier css-->
+    <title>La page prencipale</title>
+</head>
+
+<body>
+<!-- on devise le body á une pages avec beacoups de sections -->     
+    <!-- header section starts  ----------------------------------------------------------->
+    <header>
+        <!--Le titre-->
+        <h1 class="titre">Curriculum Vitae</h1>
+        <!--La description-->
+        <p class="description">Etudiant à l'Université de Boumerdes,Faculté des Sciences en deuxième année de licence en informatique Je souhaite devenir ingénieur dans le domaine de l'informatique </p>
+        <!-- La list des 3 buttons pour affichier le contenu des 3 pages dans la partie section -->
+         <ul class="Menu">
+            <button id="btn">
+            <li onclick="myFunction(1)">Mes expérience </a></li>
+            <li onclick="myFunction(2)">Mes compétences </a></li>
+            <li onclick="myFunction(3)">Mes formation </a></li>
+            </button>
+        </ul>
+    </header>
+    <!--  end of header section   -->
+    <!-- nav section starts  -------------------------------------------------------------->
+    <nav id="nav">
+      <div class="My">
+        <!--Pour la photo de profile "myphoto.jpg"-->
+        <img id="photo" src="myphoto.jpg" alt="mon image">
+            <div class="info"><!-- La class de mes information-->
+              <!--Les codes html comme "fas fa-user-alt" sont pour affichier des icons 
+              tres beaux(en ligne et j'utilise fontawesome site ) mais pour ca on doit 
+              entre connecter a l'internet -->
+              <h3 class="name"><i class="fas fa-user-alt"></i>Rahali Rabah </h3>
+              <h3 class="age"> <span><i class="fas fa-pager"></i>age : </span> 20 </h3>
+              <h3 class="number"><span><i class="fas fa-phone"></i> Number : </span> 0777285138 </h3>
+              <h3 class="gmail"> <span><i class="fas fa-user-alt"></i>Gmail : </span> rabah.rahali.l@gmail.com</h3>
+              <h3 class="adress"><i class="fas fa-map-pin"></i> <span> Adress</span> : Mahmoudi Mouhamed 14 baraki Alger l'Algerie </h3>
+            </div>
+            <ul class="media">
+              <a  href="https://github.com/rabahrahali"><i class="fab fa-github"></i></a>
+              <a  href="https://www.linkedin.com/in/rabah-rahali/"><i class="fab fa-linkedin"></i></a>
+              <a  href="https:t.me/rahalirabah"><i class="fab fa-telegram-plane"></i></i></a>
+              <a  href="https://rabahrahali.github.io/"><i class="fas fa-portrait"></i></i></a>
+            </ul>
+      </div>
+    </nav>      
+    <!--end of nav  starts  --------------------------------------------------------------->
+    <!-- section section starts  -->
+    <section class="home" id="home">\
+        <!--partie bienvenu-->
+       <h3 id="salut">Salut !</h3>
+       <h1 id="jesuis">Je suis <span>Rahali Rabah</span></h1>
+       <!--petite explication -->
+       <p id="parag"> est ceci c'est ma propre en ligne CV ,
+          où je souhaite présenter mes différentes compétences et expériences,
+          Veuillez cliquer sur les boutons ci-dessus pour voir les détails ...
+       </p>
+    </section>
+    <!-- end of section section   -->
+    <!-- footer section starts  ----------------------------------------------------------->
+    <footer id="footer">
+        
+        <ul id="int">
+          <!--la list des centres d’intérêt -->
+          <h3>les centres d’intérêt</h3>
+          <li> Développeur d'applications Android </li>
+          <li> Développeur d'applications Android</li>
+          <li>UI UX Designe</li>
+        </ul>
+        <ul id="lang">
+          <!--La list des lagues  -->
+          <h3>les langues</h3>
+          <li>Française </li>
+          <li>Arabic</li>
+          <li>Anglais</li>
+        </ul>
+    </footer>
+    <!-- end of footer section   --------------------------------------------------------->
+  <!-- pour lier le ficher js -->
+  <script src="ProjetDaw.js"></script>
+  <!-- pour lier ce projet avect le site fontawesome et utilier sont icons-->
+  <script src="https://kit.fontawesome.com/70b4db3138.js" crossorigin="anonymous"></script>
+</body>
+</html>
